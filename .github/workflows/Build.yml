@@ -1,0 +1,29 @@
+name: CMake
+
+on:
+ push:
+  branches: [master]
+ pull_request:
+  branches: [master]
+
+jobs: 
+ build_Linux:
+
+  runs-on: ubuntu-latest
+
+  steps:
+  - uses: actions/checkout@v3
+
+  - name: Configure Solver
+    run: cmake ${{github.workspace}}/solver/ -B ${{github.workspace}}/solver/build
+
+  - name: Build Solver
+    run: cmake --build ${{github.workspace}}/solver/build
+
+  - name: Configure HelloWorld
+    run: cmake ${{github.workspace}}/hello_world_app/ -B ${{github.workspace}}/hello_world_app/build
+
+  - name: Build HelloWorld
+    run: cmake --build ${{github.workspace}}/hello_world_app/build
+
+      

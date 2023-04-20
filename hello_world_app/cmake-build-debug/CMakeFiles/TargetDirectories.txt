@@ -1,0 +1,5 @@
+/home/tocsaine/hello_world_app/cmake-build-debug/CMakeFiles/formatter_lib.dir
+/home/tocsaine/hello_world_app/cmake-build-debug/CMakeFiles/formatter_ex_lib.dir
+/home/tocsaine/hello_world_app/cmake-build-debug/CMakeFiles/hello_ex.dir
+/home/tocsaine/hello_world_app/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tocsaine/hello_world_app/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tocsaine/lab06/solver_lib/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/solver_lib.dir/d/solver.cpp.o -c /home/tocsaine/lab06/solver_lib/d/solver.cpp",
+  "file": "/home/tocsaine/lab06/solver_lib/d/solver.cpp"
+}
+]
