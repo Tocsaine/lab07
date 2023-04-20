@@ -1,3 +1,0 @@
-/home/tocsaine/lab04/formatter_lib/prep/CMakeFiles/formatter_lib.dir
-/home/tocsaine/lab04/formatter_lib/prep/CMakeFiles/edit_cache.dir
-/home/tocsaine/lab04/formatter_lib/prep/CMakeFiles/rebuild_cache.dir

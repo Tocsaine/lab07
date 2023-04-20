@@ -1,3 +1,0 @@
-/home/tocsaine/lab06/solver_lib/build/CMakeFiles/solver_lib.dir
-/home/tocsaine/lab06/solver_lib/build/CMakeFiles/edit_cache.dir
-/home/tocsaine/lab06/solver_lib/build/CMakeFiles/rebuild_cache.dir
