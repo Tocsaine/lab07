@@ -6,12 +6,11 @@ WORKDIR /app
 
 COPY formatter_lib/d /app
 COPY formatter_ex_lib/d /app
-COPY solver_lib/d /app
-COPY solver/d/equation.cpp /app
+COPY hello_world_app/hello_world.cpp /app
 
 RUN apt-get update && apt-get install -y g++ && \
     g++ -I./formatter_lib -I./formatter_ex_lib \
-    -I./solver_lib -o solver equation.cpp
+    -o hello hello_world.cpp
 
 CMD ["./solver"]
 
