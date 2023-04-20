@@ -12,6 +12,6 @@ RUN apt-get update && apt-get install -y g++ && \
     g++ -I./formatter_lib -I./formatter_ex_lib \
     -o hello hello_world.cpp
 
-CMD ["./solver"]
+CMD ["./hello"]
 
 EXPOSE 80
