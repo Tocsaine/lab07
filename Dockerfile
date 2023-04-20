@@ -4,9 +4,9 @@ WORKDIR /app
 
 
 
-COPY formatter_lib/d /app/formatterlib
-COPY formatter_ex_lib/d /app/formatterexlib
-COPY solver_lib/d /app/solverlib
+COPY formatter_lib/d /app
+COPY formatter_ex_lib/d /app
+COPY solver_lib/d /app
 COPY solver/d/equation.cpp /app
 
 RUN apt-get update && apt-get install -y g++ && \
